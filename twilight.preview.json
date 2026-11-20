@@ -1,0 +1,28 @@
+{
+  "enabled": false,
+  "settings": {
+    "product_card_layout": "vertical",
+    "product_card_img_ratio": "auto",
+    "header_layout": "lite",
+    "enable_more_menu": true,
+    "header_show_store_info": false,
+    "header_store_info_home_only": true,
+    "header_is_sticky": false,
+    "topnav_is_dark": true,
+    "important_links": true,
+    "squar_photo_bg_image_size": "contain",
+    "vertical_fixed_products": false,
+    "is_more_button_enabled": false,
+    "footer_is_dark": true,
+    "product_show_breadcrumbs": true,
+    "product_index_show_breadcrumbs": true,
+    "enable_add_product_toast": true,
+    "notify_when_available_in_card": true,
+    "sticky_add_to_cart": true,
+    "product_options_collapsible": true,
+    "show_tags": true,
+    "slider_background_size": "contain",
+    "imageZoom": false
+  },
+  "layout": null
+}

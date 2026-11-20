@@ -59,7 +59,7 @@
 
     .overlay-bg {
       &:after {
-        @apply content-[''] absolute top-0 bg-black/60 w-full h-full;
+        @apply content-[''] absolute top-0 w-full h-full; background: linear-gradient(180deg, rgba(43, 43, 38, 0.45) 0%, rgba(62, 91, 58, 0.7) 100%);
       }
     }
   }
@@ -1081,7 +1081,7 @@
   /* CTA pill under the title / subtitle — `EnhancedSlider.tsx` and
      `PhotosSliderWithText.tsx` only render it when the slide has a `btnname`. */
   .home-slider__cta {
-    @apply mt-6 inline-flex min-h-11 items-center justify-center rounded-full bg-white px-5 py-1.5 text-sm font-medium text-gray-900 shadow-sm transition-transform hover:scale-[1.03] hover:no-underline sm:mt-8 sm:min-h-[44px] sm:px-6 sm:text-base;
+    @apply mt-6 inline-flex min-h-11 items-center justify-center rounded-full bg-matcha-cream px-5 py-1.5 text-sm font-medium text-matcha-deep shadow-sm transition-transform hover:scale-[1.03] hover:no-underline sm:mt-8 sm:min-h-[44px] sm:px-6 sm:text-base;
   }
 
   /* A slide's background video (EnhancedSlider `SlideVideo`): covers the slide
