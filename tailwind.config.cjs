@@ -47,6 +47,12 @@ module.exports = {
         danger: '#AE0A0A',
         primary: 'var(--color-primary)',
         'primary-dark': 'var(--color-primary-dark)',
+        matcha: {
+        green: 'var(--matcha-green)',
+         deep: 'var(--matcha-deep)',
+         cream: 'var(--matcha-cream)',
+         ink: 'var(--matcha-ink)',
+},
       },
       spacing: {
         3.75: '15px',
