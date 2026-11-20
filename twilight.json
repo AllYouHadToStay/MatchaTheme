@@ -5,7 +5,7 @@
     "en": "matcha"
   },
   "repository": "https://github.com/SallaApp/theme-raed-react",
-  "author_email": "support@salla.sa",
+  "author_email": "Mabyerahaf2005@gmail.com",
   "features": [
     "mega-menu",
     "fonts",
@@ -116,7 +116,7 @@
       "type": "static",
       "format": "title",
       "id": "static-label2",
-      "value": "<div class='rounded-lg' style='background-color: #21636d; display: flex; justify-content: center; align-items: center;padding: 15px;margin-bottom: 20px !important; flex-direction: column;gap: 15px;'><h6 style='color: #ffffff;font-size: 15px; font-weight: bold;'> خيارات رأس الصفحة</h6></div>",
+      "value": "<div class='rounded-lg' style='background-color: #3e5b3a; display: flex; justify-content: center; align-items: center;padding: 15px;margin-bottom: 20px !important; flex-direction: column;gap: 15px;'><h6 style='color: #ffffff;font-size: 15px; font-weight: bold;'> خيارات رأس الصفحة</h6></div>",
       "variant": "h6",
       "groups": [
         "header"
@@ -325,7 +325,7 @@
       "type": "static",
       "format": "title",
       "id": "static-label4",
-      "value": "<div class='rounded-lg' style='background-color: #21636d; display: flex; justify-content: center; align-items: center;padding: 15px;margin-bottom: 20px !important; flex-direction: column;gap: 15px;'><h6 style='color: #ffffff;font-size: 15px; font-weight: bold;'> خيارات أسفل الصفحة</h6></div>",
+      "value": "<div class='rounded-lg' style='background-color: #3e5b3a; display: flex; justify-content: center; align-items: center;padding: 15px;margin-bottom: 20px !important; flex-direction: column;gap: 15px;'><h6 style='color: #ffffff;font-size: 15px; font-weight: bold;'> خيارات أسفل الصفحة</h6></div>",
       "variant": "h6",
       "groups": [
         "footer"
@@ -354,7 +354,7 @@
       "type": "static",
       "format": "title",
       "id": "static-label6",
-      "value": "<div class='rounded-lg' style='background-color: #21636d; display: flex; justify-content: center; align-items: center;padding: 15px;margin-bottom: 20px !important; flex-direction: column;gap: 15px;'><h6 style='color: #ffffff;font-size: 15px; font-weight: bold;'> خيارات صفحة المنتج</h6></div>",
+      "value": "<div class='rounded-lg' style='background-color: #3e5b3a; display: flex; justify-content: center; align-items: center;padding: 15px;margin-bottom: 20px !important; flex-direction: column;gap: 15px;'><h6 style='color: #ffffff;font-size: 15px; font-weight: bold;'> خيارات صفحة المنتج</h6></div>",
       "variant": "h6"
     },
     {
