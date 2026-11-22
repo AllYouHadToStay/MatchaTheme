@@ -48,3 +48,14 @@ h1,
 h2 {
   font-family: 'Baloo Bhaijaan 2 Variable', var(--font-main);
 }
+/* فاصل موجي أعلى قسم آراء العملاء */
+.s-block--custom-testimonials.s-block--full-bg {
+  padding-top: 48px;
+  background-color: transparent;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 48' preserveAspectRatio='none'%3E%3Cpath fill='%23f5f1e6' d='M0 48V24C150 0 300 0 450 24S750 48 900 24 1050 0 1200 24V48Z'/%3E%3C/svg%3E"),
+    linear-gradient(#f5f1e6, #f5f1e6);
+  background-repeat: no-repeat;
+  background-size: 100% 48px, 100% calc(100% - 47px);
+  background-position: top, bottom;
+}
