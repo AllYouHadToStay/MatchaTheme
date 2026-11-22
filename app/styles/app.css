@@ -1,8 +1,8 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "@fontsource-variable/baloo-bhaijaan-2/wght.css";
 @import "./app.scss";
-
 /* RTL-specific font */
 [dir="rtl"] {
   --font-main: var(--font-ar);
@@ -42,4 +42,9 @@ body.modal-is-open {
 .app-inner {
   @apply bg-white;
   overflow-x: clip;
+}
+/* العناوين بخط الثيم، ونص الصفحة يتبع خط التاجر */
+h1,
+h2 {
+  font-family: 'Baloo Bhaijaan 2 Variable', var(--font-main);
 }

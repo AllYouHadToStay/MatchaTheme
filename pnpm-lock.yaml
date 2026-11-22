@@ -12,6 +12,9 @@ importers:
 
   .:
     dependencies:
+      '@fontsource-variable/baloo-bhaijaan-2':
+        specifier: ^5.3.0
+        version: 5.3.0
       '@salla.sa/twilight-components-react':
         specifier: ^3.0.2
         version: 3.0.69(@salla.sa/twilight-components@3.0.69(@jitsu/protocols@1.11.0)(@types/dlv@1.1.5)(debug@4.4.3(supports-color@10.2.2))(lit@3.3.3)(supports-color@10.2.2)(webpack@5.112.2(esbuild@0.28.2)(lightningcss@1.33.0)(postcss@8.5.26)(sharp@0.35.5(@types/node@26.6.6))))(@stencil/core@4.45.4)(@types/react@19.3.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -643,6 +646,9 @@ packages:
     peerDependenciesMeta:
       '@noble/hashes':
         optional: true
+
+  '@fontsource-variable/baloo-bhaijaan-2@5.3.0':
+    resolution: {integrity: sha512-StJtquhPlMmOyv/wUN7lATgXSG56gJfG3YQ5fltULrgydL4DqgW5/3vJX9ArWyanjN/V6ShoGKwjjlP+fSTIOQ==}
 
   '@googlemaps/markerclusterer@2.6.2':
     resolution: {integrity: sha512-U6uVhq8iWhiIckA89sgRu8OK35mjd6/3CuoZKWakKEf0QmRRWpatlsPb3kqXkoWSmbcZkopRiI4dnW6DQSd7bQ==}
@@ -4184,6 +4190,8 @@ snapshots:
     optional: true
 
   '@exodus/bytes@1.16.0': {}
+
+  '@fontsource-variable/baloo-bhaijaan-2@5.3.0': {}
 
   '@googlemaps/markerclusterer@2.6.2':
     dependencies:
