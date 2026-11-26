@@ -244,7 +244,7 @@
       "id": "topnav_is_dark",
       "format": "switch",
       "required": false,
-      "value": false,
+      "value": false[],
       "selected": false,
       "groups": [
         "header"

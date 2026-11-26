@@ -70,3 +70,9 @@ h2 {
   background-size: 100% 48px, 100% calc(100% - 47px);
   background-position: top, bottom;
 }
+/* كروت المنتجات بلمسة ماتشا */
+.s-product-card-vertical,
+.s-product-card-horizontal {
+  background-color: #f5f1e6;
+  border-radius: 22px;
+}
