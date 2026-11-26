@@ -70,6 +70,20 @@ h2 {
   background-size: 100% 48px, 100% calc(100% - 47px);
   background-position: top, bottom;
 }
+/* فوتر فحمي بفاصل موجي */
+.store-footer.store-footer--columns {
+  background-color: #2b2b26;
+}
+.store-footer.store-footer--columns::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -47px;
+  height: 48px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 48' preserveAspectRatio='none'%3E%3Cpath fill='%232b2b26' d='M0 48V24C150 0 300 0 450 24S750 48 900 24 1050 0 1200 24V48Z'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+  pointer-events: none;
+}
 /* كروت المنتجات بلمسة ماتشا */
 .s-product-card-vertical,
 .s-product-card-horizontal {
