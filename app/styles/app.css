@@ -76,3 +76,10 @@ h2 {
   background-color: #f5f1e6;
   border-radius: 22px;
 }
+/* خلفية الصور تذوب مع لون الكرت */
+.s-product-card-image {
+  background-color: transparent;
+}
+.s-product-card-image img {
+  mix-blend-mode: multiply;
+}
